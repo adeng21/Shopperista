@@ -11,10 +11,44 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140513162139) do
+ActiveRecord::Schema.define(version: 20140513210727) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "outfits", force: true do |t|
+    t.string   "name"
+    t.integer  "pant_id"
+    t.integer  "shoe_id"
+    t.integer  "shirt_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
+  end
+
+  create_table "pants", force: true do |t|
+    t.string   "name",       null: false
+    t.string   "brand",      null: false
+    t.string   "url",        null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "shirts", force: true do |t|
+    t.string   "name",       null: false
+    t.string   "brand",      null: false
+    t.string   "url",        null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "shoes", force: true do |t|
+    t.string   "name",       null: false
+    t.string   "brand",      null: false
+    t.string   "url",        null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "name",                                null: false
