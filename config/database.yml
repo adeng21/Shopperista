@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: Shopperista_production
   pool: 5
-  username: Shopperista
+  username:
   password:
