@@ -27,7 +27,6 @@ gem 'turbolinks'
 gem 'devise'
 gem 'foundation-rails'
 gem 'simple_form'
-gem "shopsense-ruby", :git => "git://github.com/PopSugar/ruby-popsugar-shopping-api.git", :branch => "shopsense-api"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
