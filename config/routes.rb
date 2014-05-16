@@ -1,6 +1,5 @@
 Shopperista::Application.routes.draw do
-
-  root 'users#index'
+  root 'home#index'
 
   devise_for :users
 

@@ -13,3 +13,177 @@
 
  *= require_tree .
  */
+#shopperista_logo {
+	padding-left: 30px;
+}
+
+#header_wrapper {
+	width: 260px;
+	height: 360px;
+	border-bottom-right-radius: 20px;
+	background: #199966;
+  color: #eee;
+  position: absolute;
+}
+
+#nav > ul { 
+	    	list-style: none;
+	    	float: center; 
+        width: 200px; 
+	    	padding: 0 10px 0 0; 
+	    	margin-top: 60px;
+	    	margin-left: 40px;
+
+  	    }
+
+#nav a 
+{ 
+			text-decoration: none; 
+			display: block; 
+			padding: 18px;
+			background: #1d252c; 
+			border-radius: 3px; 
+			color: #6b7278; 
+			text-align: center;
+			margin: 0 0 3px 0; 
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      font-variant: small-caps;
+      font-weight: bold;
+
+			-webkit-transition: all 0.2s ease;
+			-moz-transition: all 0.2s ease;
+			-o-transition: all 0.2s ease;
+	   
+}
+
+#nav:hover a 
+{
+			opacity: 1.0;
+	    }
+	    #nav:hover ul:hover a {
+			opacity: 0.5; 
+	    }
+	    #nav:hover ul:hover a:hover {
+			opacity: 1;
+	    }
+
+
+#nav:active a 
+{
+			opacity: 1.0;
+	    }  
+      #nav:active ul:active a {
+     	opacity: 0.5;
+	    }
+	    #nav:active ul:active a:active {
+			opacity: 0.9;
+	    }
+
+#row1 { 
+	height: 33.333%;
+	background: black;
+}
+
+#row2 { 
+	height: 33.333%;
+	background: white;
+
+}
+
+#row3 { 
+	height: 33.333%;
+	background: black;
+
+}
+
+/*  SLIDE ONE
+------------------------*/
+.slide {
+  position: relative;
+  float: right;
+  width: 500px;
+  height: 100%;
+  padding: 0;
+/*  border: 5px solid #e74c3c;
+*/  background: #e74c3c;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-box-shadow: ;
+  -moz-box-shadow: ;
+  box-shadow: 0 8px 10px -6px #000000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.slide-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400%;
+  height: 310px;
+}
+.slide-inner figure {
+  position: relative;
+  display: block;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+.slide-inner figure img {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  display: block;
+  height: 310px;
+}
+.slide-inner figcaption {
+  position: absolute;
+  border-bottom: 2px solid #c0392b;
+  width: 100%;
+  padding: 20px 20px;
+  margin: 0;
+  left: 0;
+  bottom: 25px;
+  font-family: monospace,serif;
+  background: #e74c3c;
+  color: #ecf0f1;
+}
+
+.slide .btn{
+  position:absolute;
+  bottom:50%;
+  z-index:100000;
+  text-decoration: none;
+  background: #c0392b;
+  padding: 5px 8px;
+  border-radius: 100%;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  font-family: monospace;
+  box-shadow: 0 1px 2px #5F5F5F;
+  -webkit-transition: all 0.8s ease-in;
+  -moz-transition: all 0.8s ease-in;
+  -ms-transition: all 0.8s ease-in;
+  -o-transition: all 0.8s ease-in;
+  transition: all 0.8s ease-in;
+}
+.slide .btn:hover,.slide .btn:focus{
+  background: #fff;
+  color: #c0392b;
+  border: 2px solid #c0392b;
+  box-shadow: 0 1px 2px #fff;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.8s ease-out;
+  -ms-transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
+.slide .left{left:5px;}
+.slide .right{right:8px;}
+
+.slide-3 {
+	border-right: 200px;
+}
