@@ -1,8 +1,4 @@
-require 'open-uri'
 require 'json'
-require "#{Rails.root}/lib/modules/shop.rb"
-require 'pry'
-
 
 class Pant < ActiveRecord::Base
   has_many :outfits
