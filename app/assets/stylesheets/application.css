@@ -183,3 +183,7 @@
 }
 .slide .left{left:5px;}
 .slide .right{right:8px;}
+
+.slide-3 {
+	border-right: 200px;
+}
