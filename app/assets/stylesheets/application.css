@@ -13,3 +13,87 @@
 
  *= require_tree .
  */
+#shopperista_logo {
+	padding-left: 30px;
+}
+
+#header_wrapper {
+	width: 260px;
+	height: 360px;
+	border-bottom-right-radius: 20px;
+	background: #199966;
+  color: #eee;
+  position: absolute;
+}
+
+#nav > ul { 
+	    	list-style: none;
+	    	float: center; 
+        width: 200px; 
+	    	padding: 0 10px 0 0; 
+	    	margin-top: 60px;
+	    	margin-left: 40px;
+
+  	    }
+
+#nav a 
+{ 
+			text-decoration: none; 
+			display: block; 
+			padding: 18px;
+			background: #1d252c; 
+			border-radius: 3px; 
+			color: #6b7278; 
+			text-align: center;
+			margin: 0 0 3px 0; 
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      font-variant: small-caps;
+      font-weight: bold;
+
+			-webkit-transition: all 0.2s ease;
+			-moz-transition: all 0.2s ease;
+			-o-transition: all 0.2s ease;
+	   
+}
+
+#nav:hover a 
+{
+			opacity: 1.0;
+	    }
+	    #nav:hover ul:hover a {
+			opacity: 0.5; 
+	    }
+	    #nav:hover ul:hover a:hover {
+			opacity: 1;
+	    }
+
+
+#nav:active a 
+{
+			opacity: 1.0;
+	    }  
+      #nav:active ul:active a {
+     	opacity: 0.5;
+	    }
+	    #nav:active ul:active a:active {
+			opacity: 0.9;
+	    }
+
+#row1 { 
+	height: 33.333%;
+	background: black;
+}
+
+#row2 { 
+	height: 33.333%;
+	background: white;
+
+}
+
+#row3 { 
+	height: 33.333%;
+	background: black;
+
+}
