@@ -10,7 +10,19 @@
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
   </head>
+  <div id="header_wrapper">
+    <div id="shopperista_logo">
+      <h2><a href="/">Shopperista</a></h2>
+    </div>
 
+    <div id="nav">
+      <ul>
+        <li><a href="/myoutfits">My Outfits</a></li>
+        <li><a href="/popular" id="lulz">Popular</a></li>
+        <li><a href="/randomizer">RANDOMIZE!</a></li>
+      </ul>
+    </div>
+  </div>
   <body>
     <div><%= flash[:notice] %></div>
     <div><%= flash[:alert] %></div>
