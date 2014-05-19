@@ -82,7 +82,7 @@
 	    }
 
 #row1 {
-	height: 33.333%;
+	height: 60%;
 	background: black;
 }
 
@@ -111,13 +111,13 @@
 }
 
 #row2 {
-	height: 33.333%;
+	height: 60%;
 	background: white;
 
 }
 
 #row3 {
-	height: 33.333%;
+	height: 60%;
 	background: black;
 
 }
@@ -127,8 +127,8 @@
 .slide {
   position: relative;
   float: right;
-  width: 500px;
-  height: 100%;
+  width: 300px;
+  height: 400px;
   padding: 0;
 /*  border: 5px solid #e74c3c;
 */  background: #e74c3c;
@@ -160,7 +160,7 @@
   border: 0;
   outline: 0;
   display: block;
-  height: 310px;
+  height: 400px;
 }
 .slide-inner figcaption {
   position: absolute;
