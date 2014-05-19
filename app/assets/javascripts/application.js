@@ -145,3 +145,4 @@ $(function(){ $(document).foundation(); });
 	window.boxSlider = boxSlider;
 
 } )( window );
+
