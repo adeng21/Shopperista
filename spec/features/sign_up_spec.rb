@@ -34,7 +34,6 @@ feature 'user signs up' , %Q{
 
       click_button 'Sign up'
 
-      save_and_open_page
       expect(page).to have_content("can't be blank")
     end
   end

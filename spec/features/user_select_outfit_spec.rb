@@ -13,7 +13,7 @@ feature 'user selects an outfit', %Q{
 
   scenario "user sees a random outfit upon initial view of homepage" do
     visit root_path
-    save_and_open_page
+
     page.find('#shirt')['src'].should_not be_blank
     page.find('#pant')['src'].should_not be_blank
     page.find('#shoe')['src'].should_not be_blank

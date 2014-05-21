@@ -134,8 +134,8 @@
 */  background: #e74c3c;
   overflow: hidden;
   margin: 0px;
-  -webkit-box-shadow: ;
-  -moz-box-shadow: ;
+  -webkit-box-shadow: 1px;
+  -moz-box-shadow: 1px;
   box-shadow: 0 8px 10px -6px #000000;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
