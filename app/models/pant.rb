@@ -1,5 +1,3 @@
-require 'json'
-
 class Pant < ActiveRecord::Base
   has_many :outfits
   PANTS = "http://api.shopstyle.com/api/v2/products?pid=uid4976-25022176-34&cat=mens-pants&limit=50"

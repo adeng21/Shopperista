@@ -1,9 +1,9 @@
 Shopperista::Application.routes.draw do
   root 'home#index'
 
-  get 'myoutfits', to: 'home#myoutfits'
-  get 'popular', to: 'home#popular'
-  get 'new', to: 'home#new'
+  # get 'myoutfits', to: 'home#myoutfits'
+  # get 'popular', to: 'home#popular'
+  # get 'new', to: 'home#new'
 
   devise_for :users
 

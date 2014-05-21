@@ -1,10 +1,5 @@
-require 'json'
-
-
 class Shoe < ActiveRecord::Base
-  # has_many :outfits
-
-
+  has_many :outfits
   SHOES = "http://api.shopstyle.com/api/v2/products?pid=uid4976-25022176-34&cat=mens-shoes&limit=50"
 
   def self.retrieve_mens_shoes
