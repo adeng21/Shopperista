@@ -4,6 +4,11 @@
 	  <article class="slide-inner">
 	  	<% @shirts.each do |shirt| %>
 	  <figure>
+  		 <div style='display:none'>
+				<div id='shirt_brand'><%= shirt.brand %></div>
+				<div id='shirt_url'><%= shirt.url %></div>
+				<div id='shirt_style'><%= shirt.style %></div>
+			</div>
       <img src=<%="#{shirt.image}"%> alt=""/>
 	  </figure>
 	  <% end %>
@@ -18,6 +23,11 @@
 	  <article class="slide-inner">
 	  	<% @pants.each do |pant| %>
 	  <figure>
+	  		<div style='display:none'>
+					<div id='pant_brand'><%= pant.brand %></div>
+					<div id='pant_url'><%= pant.url %></div>
+					<div id='pant_style'><%= pant.style %></div>
+				</div>
       <img src=<%="#{pant.image}"%> alt=""/>
 	  </figure>
 	  <% end %>
@@ -32,6 +42,11 @@
 	  <article class="slide-inner">
 	  	<% @shoes.each do |shoe| %>
 	  <figure>
+  		 <div style='display:none'>
+				<div id='shoe_brand'><%= shoe.brand %></div>
+				<div id='shoe_url'><%= shoe.url %></div>
+				<div id='shoe_style'><%= shoe.style %></div>
+			</div>
       <img src=<%="#{shoe.image}"%> alt=""/>
 	  </figure>
 	  <% end %>
