@@ -2,5 +2,10 @@
 
 FactoryGirl.define do
   factory :outfit do
+    name 'that hotness'
+    pant
+    shoe
+    shirt
+    user
   end
 end

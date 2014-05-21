@@ -17,7 +17,9 @@
 
     <div id="nav">
       <ul>
-        <li><a href="/myoutfits">My Outfits</a></li>
+        <% if user_signed_in?%>
+        <li><%= link_to 'My Outfits', profile_page_path%></a></li>
+        <%end%>
         <li><a href="/popular" id="lulz">Popular</a></li>
         <li><a href="/randomizer">RANDOMIZE!</a></li>
       </ul>

@@ -1,14 +1,13 @@
 Shopperista::Application.routes.draw do
   root 'home#index'
 
-  get 'myoutfits', to: 'home#myoutfits'
   get 'popular', to: 'home#popular'
   get 'new', to: 'home#new'
+  get 'profile_page', to: 'users#show'
 
   devise_for :users
 
   resources :users, only: [:show, :index]
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
